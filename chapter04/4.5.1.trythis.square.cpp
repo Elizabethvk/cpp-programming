@@ -1,32 +1,30 @@
-//nikwa ideq shto ne ba4ka tbh
-
+//meine kleine shoine warianten 1 BA4ka nai nakraq rfabeushusek BORO BACHKAI!
 #include <iostream>
-#include <string>
-#include <numeric>
+//#include <string>
+//#include <numeric>
 using namespace std;
 
-void square(int n) {
-	return n * n;
-	//double s{ 0 };
-	//for (int i = 0; i < n; ++i) {
-	//	s = i*n;
-	//}
-	//return s;
+int square(int n) {
+	int s{ 0 };
+	for (int i = 0; i < n; ++i) {
+		s += n;
+	}
+	return s;
 }
 
 int main() {
-	//cout << "Ennter a value to be squared: \n";
-	//int n = 0;
-	//while (cin >> n) {
-	cout << square(5) << '\n';
-	//}
+	cout << "Ennter a value to be squared: \n";
+	int n = 0;
+	while (cin >> n) {
+		cout << n << " na koren e " << square(n) << '\n';
+	}
 	//for (int i = 0; i < 100; ++i) {
 	//	cout << square(i);
 	//}
 	return 0;
 }
 
-// no towa bachka for some reason
+// vol2
 int square(int x)
 {
     int s {0};
